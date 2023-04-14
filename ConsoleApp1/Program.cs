@@ -178,6 +178,27 @@
             //Console.WriteLine(days);
 
             #endregion
+
+            #region Arraya element elave etdikde avtomatik olaraq arrayin size-i artmalidir
+            //string text = "-sadasdsa-".Trim('-');
+
+            //while (true)
+            //{
+            //    int input = int.Parse(Console.ReadLine());
+            //    Array.Resize(ref arr, arr.Length + 1);
+            //    arr[arr.Length - 1] = input;
+            //    Console.WriteLine(string.Join(',', arr));
+            //} 
+            #endregion
+
+            #region Parametr olaraq value daxil edirsiz hemin value arrayda movcuddursa o valueni silirsiz
+            //int[] arr1 = { 1, 2, 3, 4 };
+
+            //int _element = int.Parse(Console.ReadLine());
+
+            //arr1 = Array.FindAll(arr1, element => element != _element);
+            //Console.WriteLine(string.Join("-", arr1)); 
+            #endregion
         }
     }
 }
